@@ -29,8 +29,10 @@ select = int(input("Select operations form 1, 2, 3, 4 :"))
 
 number_1 = int(input("Enter first number: "))
 number_2 = int(input("Enter second number: "))
+#check if 9+10 is entered
 if select == 1 and number_1 == 9 and number_2 == 10:
-	print("9 + 10 =", 21)
+	print(number_1,"+",number_2,"=",number_1 + number_2 + 2)
+
 
 elif select == 1:
 	print(number_1, "+", number_2, "=",number_1 + number_2)
