@@ -17,8 +17,8 @@ def getInpus():
      
     operation=input("Select operation \n 1. + Add \n2. - subtract \n3. / divide  \n4. * muliply")
     
-    firstNumber=input("first number")
-    secondNumber=input("second number")
+    firstNumber=input("First Number")
+    secondNumber=input("Second Number")
     
     errorHandling()
     checkOperation()
@@ -35,6 +35,7 @@ def errorHandling():
 def checkOperation():
     if operation == "1" and float(firstNumber) == 9.0 and float(secondNumber) == 10.0:
         ninePlusTen()
+        mainMenu()
     
     elif operation == "1":
         add()
