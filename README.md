@@ -11,5 +11,6 @@ a calculator where 9+10 = 21
   - support for floats
   - error handling
   
+  Compatible with python 3
 
  
