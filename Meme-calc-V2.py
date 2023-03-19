@@ -2,7 +2,7 @@
 def mainMenu():
     main=input("1.Enter the app\n2.Quit")
     if main == "1":
-        getInpus()
+        getInputs()
     elif main == "2":
         print("")
     else:
@@ -10,7 +10,7 @@ def mainMenu():
         mainMenu()
     
 
-def getInpus():
+def getInputs():
     global operation
     global firstNumber
     global secondNumber
@@ -29,7 +29,7 @@ def errorHandling():
         float(secondNumber)
     except:
         print("Invalid Input")
-        getInpus()
+        getInputs()
 
     
 def checkOperation():
@@ -51,7 +51,7 @@ def checkOperation():
         mainMenu()
     else:
         print("Invalid Input")
-        getInpus()
+        getInputs()
 
 def add():
     print(float(firstNumber)+float(secondNumber))
